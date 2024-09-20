@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.navbar {
+    height: 70px;
+    background-color: #20dd9b;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.navContainer {
+    width: 100%;
+    max-width: 1024px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.navButton {
+    margin-left: 20px;
+    font-size: 18px;
+    border: none;
+    font-weight: 600;
+    padding: 10px 15px;
+    cursor: pointer;
+    color: #20dd9b;
+    border-radius: 5px;
+}
